@@ -1,0 +1,3 @@
+movie name:=devara
+movie id:=202308
+ticket price:=250

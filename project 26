@@ -1,0 +1,7 @@
+a=int(input("enter the number"))
+a=0
+while a>0:
+    digit=a%10
+    a=a+digit
+    a=a//10
+print(a)

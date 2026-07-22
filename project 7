@@ -1,0 +1,5 @@
+a = 5
+b = 3
+print("a is greater than b ",a>b)
+c = input("enter a number :")
+print("c is in range(10,50) ",int(c)>=10 and int(c)<=50)

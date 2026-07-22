@@ -1,0 +1,8 @@
+n=int(input("enter the number"))
+largest=0
+while n>0:
+    rem=n%10
+    if rem>largest:
+        largest=rem
+    n=n//10
+print(largest)

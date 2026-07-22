@@ -1,0 +1,3 @@
+ n=10
+ res="Even" if n%2==0 else "odd"
+ print (res)

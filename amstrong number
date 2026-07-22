@@ -1,0 +1,13 @@
+n=int(input("enter the number"))
+total=0
+temp=n
+while n>0:
+    rem=n%10
+    total+=rem**3
+    n=n//10
+if temp==total:
+    print("yes  ")
+else:
+    print("no") 
+
+    

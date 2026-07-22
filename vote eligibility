@@ -1,0 +1,6 @@
+a=int(input("enter the age: "))
+age=a>18
+if not age>18:
+    print("not eligible")
+else:
+    print("eligible")

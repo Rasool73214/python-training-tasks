@@ -1,0 +1,6 @@
+a=int(input("enter the digits"))    
+digits=0
+while a>0:
+    digits=digits+1
+    a=a//10
+print(digits)

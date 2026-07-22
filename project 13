@@ -1,0 +1,10 @@
+a=str(input("enter user name:"))
+b=str(input("enter password:"))
+if a=="student" and b=="123456":
+    print("login successful") 
+elif a!="student" and b=="123456":
+    print("invalid user name")
+elif a=="student" and b!="123456":
+    print("invalid password")     
+else:
+    print("user not found")

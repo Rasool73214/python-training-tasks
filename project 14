@@ -1,0 +1,10 @@
+units=int(input("Enter the number of units"))
+bill=0
+if units <=100:
+    print("zero")
+elif units in range(101,201):
+    bill=(units-100)*5
+    print(bill)
+else:
+    bill=(100*5)+(units-200)*10
+    print(bill)

@@ -1,0 +1,20 @@
+x="electricity bill"
+print(x.title())
+a=input("enter the name: ")
+b=input("enter address: ")
+c=input("enter the mobile number: ")
+bill=float(input("enter the bill:"))
+if bill<=100:
+    print(" RS.0")
+elif bill>100 and bill<=500:
+    bill=(bill-100*5)
+    print("Total bill is:",bill)
+elif bill>500 and bill<=1000:
+    bill=(bill-500*10)
+    print("Total bill is:",bill)
+elif bill>1000 and bill<=2000:
+    bill=(bill-1000*15)
+    print("Total bill is:",bill)
+else:
+    bill=(bill-2000*20)
+    print("Total bill is:",bill)

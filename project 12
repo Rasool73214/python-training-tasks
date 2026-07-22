@@ -1,0 +1,11 @@
+a=int(input("Enter a number: "))
+if a>0 and a%2==0:
+    print("Even and positive")
+elif a>0 and a%2!=0:
+    print("Odd and positive")
+elif a<0 and a%2==0:
+    print("Even and negative")
+elif a<0 and a%2!=0:
+    print("Odd and negative")
+else:
+    print("Zero")

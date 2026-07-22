@@ -1,0 +1,7 @@
+a = int(input("enter a number :"))
+b = a%2
+print("given number is odd ",b!=0)
+print("given number is even ",b==0)
+print("given number is positive ",a>0)
+print("given number is negative ",a<0)
+print("it is multiple of 5 and 3 ",a%5==0 and a%3==0)

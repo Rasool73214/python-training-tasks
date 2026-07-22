@@ -1,0 +1,11 @@
+marks=int(input("enter your marks:"))
+income=int(input("enter your income:"))
+sports =input("sports quota ?:")
+if marks>85 and income<300000:
+   print("eligible")
+elif sports=="yes":
+ print("eligible")
+else:
+    print("not eligible")
+
+

@@ -1,0 +1,5 @@
+John,45000
+Peter,52000
+Mary,48000
+David,abc
+Susan,60000

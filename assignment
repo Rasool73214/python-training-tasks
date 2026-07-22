@@ -1,0 +1,13 @@
+a=int(input("Enter a number: "))
+i=0 
+for i in range(1,2):
+    reverse=0
+    if a>0:
+        print("up")
+    elif a<0:
+         print("down")
+         if a==0:
+             print("Palindrome")
+
+
+

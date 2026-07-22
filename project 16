@@ -1,0 +1,9 @@
+student=int(input("enter the attendance percentage:"))
+med=input("medical?")
+if student>=75:
+    print("eligible")
+elif med=="yes":
+    print("eligible")
+else:
+    print("not eligible")
+

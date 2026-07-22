@@ -1,0 +1,25 @@
+a = 6
+b = 4
+print("sum", a + b)
+print("sub", a - b)
+print("mul", a * b)
+print("div", a / b)
+print("power", a ** b)
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+print(a % b)
+c = 6 > 4
+d = 20 < 10
+print(c and d)
+print(c or d)
+print(not c)
+e = "Hello"
+f = "Hello world"
+print("o" in e)
+print("r" not in f)
+print("Hello" is "world")
+print("Hello" is not "world")

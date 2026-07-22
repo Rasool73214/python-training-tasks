@@ -1,0 +1,11 @@
+a = 3
+b = 6
+print("before swapping")
+print(a)
+print(b)
+print("after swapping")
+a = a+b
+b = a-b
+a = a-b
+print(a)
+print(b)
